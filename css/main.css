@@ -1,0 +1,134 @@
+* {
+    border: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.body-wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: right;
+    margin-left: 50%;
+}
+
+.moto {
+    text-align: right;
+    font-weight: 100;
+
+}
+
+.title {
+    font-weight: 100;
+}
+
+.work {
+    color: lightgray;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+}
+
+.workimage {
+    margin: 0 auto;
+    width: 275px;
+}
+
+.workdesc {
+    text-align: center;
+    padding: 5px 5px;
+    color: gray;
+}
+
+a {
+  font-size: 10px;
+  color: lightgray;
+  text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-work {
+   right: 0px;
+}
