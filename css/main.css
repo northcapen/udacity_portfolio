@@ -7,8 +7,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+img { 
+    max-width: 100%;
+}
+
 body {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     color: #747774;
     font-weight: 100;
@@ -24,10 +28,9 @@ body {
 }
 
 .frontimg { 
-    background-image: url('https://c2.staticflickr.com/4/3892/14904338619_e4ed845776_b.jpg');
-    background-size: contain;
-    width: 900px;
-    height: 300px;
+    height: auto;
+    width: auto;
+    background-image: url(../front.jpg);
 }
 
 
@@ -35,7 +38,9 @@ body {
     color: #BCBBBB;
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 36px;
+    width: 30%;
+    min-width: 200px;
+    margin: 10px;
 }
 
 .line {
@@ -44,7 +49,6 @@ body {
 }
 
 .workimage {
-    margin: auto;
     display: block;
 }
 
@@ -65,8 +69,18 @@ a {
   text-decoration: none;
 }
 
-h2 {
-    margin: 0;
+h1, h2 {
+    margin: 5px;
+}
+
+@media screen and (max-width: 700px) { 
+   .logo { 
+       float: left;
+    }
+
+    .moto, .title {
+        text-align: left;
+    }
 }
 
 .grid {
@@ -80,6 +94,10 @@ h2 {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: nowrap;
+}
+
+.wrap { 
+   flex-wrap: wrap;
 }
 
 .col-1 {
