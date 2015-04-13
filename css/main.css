@@ -12,8 +12,7 @@ img {
 }
 
 body {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 970px;
     color: #747774;
     font-weight: 100;
 }
@@ -28,19 +27,15 @@ body {
 }
 
 .frontimg { 
-    height: auto;
-    width: auto;
-    background-image: url(../front.jpg);
+    margin: 0 auto;
+    display: block;
 }
-
 
 .work {
     color: #BCBBBB;
-    margin-bottom: 20px;
     font-weight: 400;
-    width: 30%;
-    min-width: 200px;
-    margin: 10px;
+    min-width: 230px;
+    margin-bottom: 15px;
 }
 
 .line {
@@ -86,63 +81,5 @@ h1, h2 {
 .grid {
     margin: 0 auto;
     max-width: 1200px;
-    width: 100%;
-}
-
-.row {
-    margin-bottom: 20px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.wrap { 
-   flex-wrap: wrap;
-}
-
-.col-1 {
-    width: 8.33%;
-}
-
-.col-2 {
-    width: 16.66%;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33%;
-}
-
-.col-5 {
-    width: 41.66%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-7 {
-    width: 58.33%;
-}
-
-.col-8 {
-    width: 66.66%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
-.col-10 {
-    width: 83.33%;
-}
-
-.col-11 {
-    width: 91.66%;
-}
-
-.col-12 {
     width: 100%;
 }
